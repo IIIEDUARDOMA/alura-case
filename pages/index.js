@@ -1,10 +1,33 @@
-import Link from '../src/components/Link';
+import HomeScreen from '../src/screens/HomeScreen';
 
-export default function HomePage() {
-  return (
-    <div>
-      <h1>Alura case - Home</h1>
-      <Link href="/faq">Ir para a FAQ</Link>
-    </div>
-  );
-}
+export default HomeScreen;
+
+// import Link from '../src/components/Link';
+// import Footer from '../src/components/patterns/Footer';
+
+// function Title({ children, as }) {
+//   const Tag = as;
+//   return (
+//     <>
+//       <Tag>{children}</Tag>
+//       <style jsx>
+//         {`
+//           ${Tag} {
+//             color: red;
+//             font-family: sans-serif;
+//           }
+//         `}
+//       </style>
+//     </>
+//   );
+// }
+
+// export default function HomePage() {
+//   return (
+//     <div>
+//       <Title as="h1">Alura case - Home</Title>
+//       <Link href="/faq">Ir para a FAQ</Link>
+//       <Footer />
+//     </div>
+//   );
+// }
