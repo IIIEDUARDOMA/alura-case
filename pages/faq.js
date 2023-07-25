@@ -1,4 +1,5 @@
 import Link from '../src/components/Link';
+import PageTitle from '../src/components/PageTitle';
 
 export async function getStaticProps() {
   const FAQ_API_URL =
@@ -19,10 +20,9 @@ export async function getStaticProps() {
 }
 
 export default function FAQPage({ faq }) {
-  console.log(faq);
-
   return (
     <div>
+      <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
       <h1>Alura Case - Pagina de perguntas "FAQ"</h1>
       <Link href="/">Ir para Home</Link>
       <ul>
