@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import GlobalStyle from '../src/Theme/GlobalStyle';
+import GlobalStyle from '../src/theme/GlobalStyle';
 import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
